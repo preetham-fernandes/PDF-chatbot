@@ -2,7 +2,7 @@ import scrapy
 
 class MySpider(scrapy.Spider):
     name = "my_spider"  # Unique name for the spider
-    start_urls = ["https://lu.ma/5bhpkke4?tk=Quu1Oy"]  # Replace with your target website
+    start_urls = ["https://bowlicious.in/"]  # Replace with your target website
 
     def parse(self, response):
         # Extracting all text from the page
